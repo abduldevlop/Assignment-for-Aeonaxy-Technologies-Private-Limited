@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+## Assignment for Aeonaxy Technologies Private Limited
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this assignment, we will be leveraging the power of React, a popular JavaScript library for building user interfaces, along with Tailwind CSS, a utility-first CSS framework, to create a dynamic and visually appealing web application for Aeonaxy Technologies Private Limited.
 
-Currently, two official plugins are available:
+React's component-based architecture will allow us to build modular and reusable UI components, facilitating efficient development and maintenance. We'll harness React's state management capabilities to ensure smooth and interactive user experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS will enable us to rapidly style our components using utility classes, streamlining the design process while maintaining flexibility and scalability. Its utility-first approach empowers us to craft custom designs with ease, making it an ideal choice for creating a modern and sleek interface for Aeonaxy Technologies.
 
-## Expanding the ESLint configuration
+By combining the strengths of React and Tailwind CSS, we aim to deliver a high-quality web application tailored to the specific needs and preferences of Aeonaxy Technologies Private Limited. Our focus will be on creating an intuitive user interface that enhances usability and maximizes engagement, ultimately contributing to the success of Aeonaxy's digital presence.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Before we begin, make sure you have the following installed on your system:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Node.js (v14.x or higher)
+- npm (v6.x or higher) or Yarn (v1.x or higher)
+- Git
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine using the following command:
+
+```bash
+git remote add origin https://github.com/abduldevlop/Assignment-for-Aeonaxy-Technologies-Private-Limited.git
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Navigate to the Project Directory
+
+```bash
+cd aeonaxy-technologies-private-limited
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+### 5. open in browser
+
+```bash
+http://localhost:5173/
+```
