@@ -1,7 +1,7 @@
 import { TiTick } from "react-icons/ti";
 import { Plan } from "../types";
 
-const PricieCard = ({ title, plane, features, id, type }: Plan) => {
+const PricieCard = ({ title, plane, features, type }: Plan) => {
   return (
     <div
       className={`w-full sm:w-[200px] h-full ${
@@ -45,7 +45,10 @@ const PricieCard = ({ title, plane, features, id, type }: Plan) => {
 
       <ul className="flex flex-col gap-2 my-3 sm:my-5">
         {features.map((fet) => (
-          <li className="flex items-center gap-2 font-medium text-[12px] sm:text-[16px]">
+          <li
+            key={fet}
+            className="flex items-center gap-2 font-medium text-[12px] sm:text-[16px]"
+          >
             <span className="text-[#bbdbdf]">
               <TiTick />
             </span>
